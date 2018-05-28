@@ -1,7 +1,7 @@
 {
   "name": "burnout-keyboard-controls-plugin",
   "description": "Provide keyboard controls for burnout game engine.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/burnout-keyboard-controls-plugin.cjs.js",
   "module": "dist/burnout-keyboard-controls-plugin.esm.js",
   "author": {

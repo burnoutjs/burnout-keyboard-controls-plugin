@@ -35,4 +35,4 @@ const burnoutKeyboardControlsPlugin = (control, context = window) => {
 
 };
 
-export default burnoutKeyboardControlsPlugin();
+export default burnoutKeyboardControlsPlugin;

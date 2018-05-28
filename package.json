@@ -1,0 +1,47 @@
+{
+  "name": "burnout-keyboard-controls-plugin",
+  "description": "Provide keyboard controls for burnout game engine.",
+  "version": "0.1.0",
+  "main": "dist/burnout-keyboard-controls-plugin.cjs.js",
+  "module": "dist/burnout-keyboard-controls-plugin.esm.js",
+  "author": {
+    "name": "afonsopacifer",
+    "email": "afonsopacifer@live.com"
+  },
+  "bugs": {
+    "url": "https://github.com/burnoutjs/burnout-keyboard-controls-plugin/issues"
+  },
+  "keywords": [
+    "game-engine",
+    "grid-layout",
+    "game-development",
+    "css-grid-layout",
+    "css-grid",
+    "keyboard",
+    "plugin",
+    "burnoutjs",
+    "burnout-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/burnoutjs/burnout-keyboard-controls-plugin"
+  },
+  "scripts": {
+    "test": "",
+    "build": "BABEL_ENV=dev rollup -c",
+    "dev": "BABEL_ENV=dev rollup -c -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint-plugin-html": "^4.0.3",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-filesize": "^1.4.2",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-watch": "^4.3.1",
+    "uglify-es": "^3.0.24"
+  }
+}
